@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Satz</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="/Sathish_kumar_Resume.pdf" target="blank">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Sathish<br />a</span> Web Developer
+          </h1>
+          <p class="description">
+            Welcome to my portfolio! I'm Sathish, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. 
+          </p>
+          <div class="action__btns">
+           <button class="hire__me" ><a href="#contact">Hire Me</a></button>
+            <a href="/Sathish_kumar_Resume.pdf" target="blank"><button class="portfolio">Download CV</button></a> 
+          </div>
+        </div>
+        <div class="image">
+          <img src="/Satz.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+ <!----------------------about------------------------------>
+    <section id="about"><br><br><br><br>
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="text-container">
+        <p>
+          I am a B.E graduate with a specialization in Electronics and Communication Engineering. I completed my studies in 2023.<br>I've been on an exciting journey in the professional world.
+          I actively contributed to creating a positive work culture by organizing cultural and fun activities in my college.
+        </p>
+        <p>I consider myself as a very focused person i always work towards the goal in very efficient manner and very optimistic in tough times. 
+        </p>
+      </div>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h3>Internship</h3>
+              <p>Scada Software and System<br />3 Months</p>
+            </div><br>
+            <div class="details-container">
+              <h3>Education</h3>
+              <p> Bachelor Of Engineering<br />CGPA - 7.95</p>
+            </div><br>
+            <div class="details-container">
+              <h3>Certifications</h3>
+              <li>Crash Course on python</li>
+              <li>Structured Query Language</li>
+              <li>C Programming</li>
+            </div><br>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-------------------about end--------------------------->
+     <!----------------------contact------------------------------>
+     <section id="contact">
+      
+      <div class="contact-form">
+        <div class="input-contact">
+          <h3>Contact Form</h3>
+          <form id="myForm">
+            <input type="text" id="name" placeholder="Enter Your Name" class="input-form" autocomplete="off" required>
+            <input type="text" id="email" placeholder="Email" class="input-form" autocomplete="off">
+            <input type="text" id="city" placeholder="City" class="input-form" autocomplete="off">
+            <textarea id="message" name="message" class="input-form" cols="10" rows="3" placeholder="Message" autocomplete="off" required></textarea>            
+            <input id="myForm" type="submit"  class="contact-btn" autocomplete="off">
+          </form>
+            <script src="https://smtpjs.com/v3/smtp.js">
+            </script>
+            <script src="/index.js">
+            </script>
+        </div>
+      </div>
+      <div class="social-icon">
+        <a href="https://github.com/sathis104" target="_blank">
+          <i class="fab fa-github" id="github-icon"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sathish-kumarc/" target="_blank">
+          <i class="fab fa-linkedin" id="linkedin-icon"></i>
+        </a>
+        
+        <a href="https://www.instagram.com/mr._.enfielder__/" target="_blank">
+          <i class="fab fa-instagram" id="instagram-icon"></i>
+        </a>
+        
+      </div>
+      <br>
+     </section>
+  </body>
+</html>
